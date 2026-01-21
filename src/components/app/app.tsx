@@ -4,7 +4,7 @@ type AppScreenProps = {
   count: number;
 };
 
-function App({ count }: AppScreenProps): JSX.Element {
+function App({ count }: AppScreenProps) {
   return <Main count={count} />;
 }
 export default App;

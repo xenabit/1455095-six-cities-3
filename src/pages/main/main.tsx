@@ -4,7 +4,7 @@ type MainProps = {
   count: number;
 };
 
-function Main({ count }: MainProps): JSX.Element {
+function Main({ count }: MainProps) {
   return (
     <main className="page__main page__main--index">
       <h1 className="visually-hidden">Cities</h1>
